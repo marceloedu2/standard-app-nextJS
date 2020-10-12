@@ -1,6 +1,6 @@
 import React from 'react'
-import Javascript from '../assets/javascript.svg'
-import { ContainerHome } from '../styles/pages/home'
+import Javascript from '@/assets/javascript.svg'
+import { ContainerHome } from '@/styles/pages/home'
 
 const Home: React.FC = () => {
   return (

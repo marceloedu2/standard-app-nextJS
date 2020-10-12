@@ -28,5 +28,13 @@
   ],
   "rules": {
     "prettier/prettier": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "directory": "./tsconfig.json"
+      }
+    }
   }
 }
